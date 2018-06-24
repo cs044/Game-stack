@@ -1,0 +1,96 @@
+/*Search Bar */
+	#SearchBar {
+					border: 1px solid #999;
+					
+					width: 554px;
+					-moz-box-shadow: 4px 4px 9px #ccc inset;
+					-webkit-box-shadow: 4px 4px 9px #ccc inset;
+					box-shadow: 4px 4px 9px #ccc inset;
+					-moz-border-radius: 5px 0 0 5px;
+					-webkit-border-radius: 5px 0 0 5px;
+					border-radius: 5px 0 0 5px;
+					background-color: #EEE;
+					position:relative;
+					padding: 3px 6px;
+					margin-top:6px;
+					height: 36px;
+					font-size: 24px;
+					color: #CCC;
+					float: left;
+			}
+			
+			
+			#SearchSubmit {
+					-moz-border-radius: 0 5px 5px 0;
+					-webkit-border-radius: 0 5px 5px 0;
+					border-radius: 0 5px 5px 0;
+					width: 60px;
+					float: left;
+					background-color: #333;
+					background-image: url(images/back/evolution-icons.png);
+					background-position: 12px 6px;
+					background-repeat: no-repeat;
+					height: 44px;
+					cursor: pointer;
+			}
+/*Search Bar */			
+			
+/* Image Slider <!--Desined By:Kush Kumar Sharma-->*/
+		.imgSlide	{width:630px;
+					height:360px;
+					margin-top:50px;
+					margin-left:20px;
+					position:absolute;
+					
+					
+		}
+		
+		.imgSTOP	{width:625px;
+					margin-left:10px;
+					height:90px;
+					float:left;
+					position:relative;
+					overflow:hidden;
+					
+		}
+		
+		.imgSTopE	{width:122px;
+					height:79px;
+					float:left;
+					position:relative;
+					overflow:hidden;
+		}
+		
+		#iM	{overflow:hidden;
+			width:620;
+			height:245px;
+			}
+		
+		#imgSMain	{width:11125px;
+					height:245px;
+					float:left;
+					position:relative;
+					overflow:hidden;
+					-webkit-transition:left .5s  ease-in ;
+					-moz-transition:left .5s;
+		}
+		
+		#imgSMainf	{-webkit-transition:all .5s ;
+		}
+		
+		#imgSMainf:hover	{
+		}
+		
+		
+		
+		#imgS1:hover,#imgS2:hover,#imgS3:hover,#imgS4:hover,#imgS5:hover
+			{-webkit-transition:border .3s ;
+			-moz-transition:border .3s ;
+		}
+		
+		#imgS1:hover,#imgS2:hover,#imgS3:hover,#imgS4:hover,#imgS5:hover
+			{border:3px solid red;
+		}
+/* Image Slider */
+
+

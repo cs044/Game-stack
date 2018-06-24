@@ -1,0 +1,150 @@
+	a	{text-decoration:none;color:#33BEFF;}
+	
+	.picksTOP a	{color:white;}
+	
+	.picks	{width:100%;
+			
+			
+	}
+	/*<!--Desined By:Kush Kumar Sharma-->*/
+	.picksTOP	{width:100%;
+				height:45px;
+				background-color:#212121;
+	}
+	
+	.pkE	{width:100px;height:16px;
+			color:White;
+			font-weight:bold;
+			font-size:13px;
+			border-bottom:4px;
+			border-top:0px;
+			border-right:0px;
+			border-left:0px;
+			border-style:solid;
+			border-color:Grey;
+			float:left;
+			margin:0px 3px;
+			padding: 10px 5px 5px 5px ;
+			cursor:hand;
+			cursor:pointer;
+	}
+	
+	.pkE:hover	{border-bottom:4px;
+			border-top:0px;
+			border-right:0px;
+			border-left:0px;
+			border-style:solid;
+			border-color:#33BEFF;
+			
+	}
+	
+	
+	
+	body	{font-family:"arial",helvetica;}
+
+	.RankWid	{width:100%;
+				height:420px;
+				box-shadow:0px 0px 4px blue;
+				-webkit-box-shadow:0px 0px 4px grey;
+				-moz-box-shadow:0px 0px 4px grey;
+				
+	}
+	
+	.rankLeft	{width:260px;
+				height:320px;
+				float:left;
+				font-size:14px;
+				margin-left:-20px;
+				
+		
+	}
+	
+	.rankRight	{width:285px;height:100px;;float:right;
+				text-align:right;
+				margin-right:10px;
+				overflow:hidden;
+				}
+	
+	.RankWidText	{width:185px;
+					height:180px;
+					float:right;
+					overflow:hidden;
+					
+	}
+	
+	.RankLeft h2	{float:left;
+					
+	}
+	
+	.RankLeft li	{list-style:none;
+					width:212px;
+					height:25px;
+					position:relative;
+					cursor:pointer;
+					padding:3px 0px 0px 3px;
+					overflow:hidden;
+	}
+	
+	.RankLeft li:hover	{background:#BEBEBE;
+						box-shadow:1px 1px 5px black;
+						-webkit-box-shadow:1px 1px 5px black;
+						-moz-box-shadow:1px 1px 5px black;
+						color:white;
+						font-weight:bold;
+						width:212px;
+	}
+	
+	.rankLeft Span	{padding:2px 15px 2px 7px;
+					font-weight:bold;	
+	}
+	
+	.RankLeft li:hover #numbr	{padding:2px 15px 2px 7px;
+							color:orange;
+	}
+	
+	#arw,#arwA,#arwB,#arwC,#arwD,#arwE,#arwF,#arwG,#arwH,#arwI
+			{position: relative;
+			visibility:hidden;
+			height:0px;
+			width:0px;
+			float:right;
+		}
+	
+	#arw:after,#arwA:after,#arwB:after,#arwC:after,#arwD:after,#arwE:after,#arwF:after,#arwG:after,#arwH:after,#arwI:after
+						{content:' ';
+						border: solid transparent;
+						content: ' ';
+						height: 0;
+						left: 100%;
+						position: absolute;
+						width: 0;
+						
+						border-width: 7px;
+						border-left-color: #ccc;
+						top: 100%;
+	}
+		
+	
+	
+	#RWTp1	{background:#DFDEDE;
+		Color:Black;
+		font-weight:bold;
+		text-align:center;
+		margin-right:10px;
+	}
+	
+	#RWTp2	{background:#DFDEDE;
+		Color:Orange;
+		text-align:center;
+		margin-right:10px;
+		}
+		
+	#RWTp3	{
+			text-align:left;
+			border-top:2px inset grey;
+			border-left:1px solid yellow;
+			font-size:12px;
+			margin-right:10px;background-Image:url("images/back/bglines.png");
+		}
+	
+

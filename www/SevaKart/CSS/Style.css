@@ -1,0 +1,236 @@
+/*Top header CSS*/
+.Location{
+	margin-top: 14px;
+	left: 50px;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+	border-radius: 50px;
+	border: 1px solid #e4e5e6;
+	height: 1.688em;
+	display: block;
+	float: right;
+	margin: 10px auto 10px auto;
+	width: auto;
+	position: relative;
+	
+}
+.top_header_element_search{
+	margin-top: 14px;
+	left: 1.875em;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+	border-radius: 50px;
+	border: 1px solid #e4e5e6;
+	height: 1.688em;
+	display: block;
+	position: absolute;
+}
+.background{
+	background-color: #313a47;
+	border:1px solid black;
+	height: 60px;
+	min-height: auto;
+	 margin-left:auto;
+    margin-right:auto;
+    background-attachment: scroll;
+    background-position: left top;
+    width: auto;
+}
+body a:hover, body a:focus, body a:hover{
+    color: #ffffff;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a.top_header_element_SignIn{
+	color: #cdd1d6;
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 0.875em;
+}
+.row{
+	max-width: 80.000em;
+    min-width: auto;
+    width: auto;
+}
+
+
+/*Login_Sign-up.php*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+body {font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #666;}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+#modal_trigger {margin:14px auto; width:100px; display:block;}
+
+.btn {padding:10px 20px; background: #F4F4F2;}
+.btn_red {background: #ED6347; color: #FFF;}
+
+.btn:hover {background: #E4E4E2;}
+.btn_red:hover {background: #C12B05;}
+
+a.btn {color:#666; text-align: center; text-decoration: none;}
+a.btn_red {color: #FFF;}
+
+.one_half {width:50%; display: block; float:left;}
+.one_half.last {width:45%; margin-left:5%;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+
+.fa {
+    display: inline-block;
+    font-family:FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
+ .fa-times:before {
+    content: "\f00d";
+}
+
+.popupBody {padding:20px;}
+
+
+/* Social Login Form */
+.social_login {}
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #F4F4F2; overflow: hidden;}
+.social_login .icon {display:block; width:10px; padding:5px 10px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
+.social_login .fb .icon {background:#3B5998;}
+.social_login .google .icon {background:#DD4B39;}
+.social_login .icon_title {display:block; padding:5px 0; float:left; font-weight: bold; font-size: 16px; color:#777;}
+.social_login .social_box:hover {background: #E4E4E2;}
+
+.centeredText {text-align: center; margin: 20px 0; clear: both; overflow: hidden; text-transform: uppercase;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Login Form */
+.user_login {display: none;}
+.user_login label {display: block; margin-bottom:5px;}
+.user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_login input[type="checkbox"] {float:left; margin-right:5px;}
+.user_login input[type="checkbox"]+label {float:left;}
+
+.user_login .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+.forgot_password {display:block; margin: 20px 0 10px; clear: both; overflow: hidden; text-decoration: none; color:#ED6347;}
+
+/* User Register Form */
+.user_register {display: none;}
+.user_register label {display: block; margin-bottom:5px;}
+.user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_register input[type="checkbox"] {float:left; margin-right:5px;}
+.user_register input[type="checkbox"]+label {float:left;}
+
+.user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+
+/*---------------------------top_header_bottom-------------------------------*/
+.company-name{
+	color: #43454d;
+}
+.top_header_background{
+	border-bottom: 1px solid #e4e5e6;
+	width: auto;
+	height: 175px;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.small-12 {
+    width: 100%;
+}
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+.column, .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+#branding-wrap {
+    display: block;
+    height: auto;
+    text-align: center;
+}
+.cell {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#brand {
+    -webkit-backface-visibility: hidden;
+}
+#brand h1#brand-primary-text {
+    font-size: 2.75rem;
+    font-weight: normal;
+}
+#brand h1 {
+    line-height: 1em;
+    margin: 0;
+}
+#brand-primary-text {
+    font-family: Pacifico, Helvetica, Arial, sans-serif;
+}
+
+.row.padded-h {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+.row {
+    max-width: 1280px;
+    min-width: auto;
+    width: auto;
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+}
